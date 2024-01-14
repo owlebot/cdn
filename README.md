@@ -1,10 +1,17 @@
-# template
+# cdn
 
-Template repo for future node projects
+CDN server that serves assets from a S3 bucket hosted in Oracle Cloud.  
+
+The app is hosted on fly.io.  
+DNS and caching is done via Cloudflare.  
+
+Default port: `8080`  
+
+Hosted with fly.io: https://fly.io/apps/cdn-owlebot
 
 ## Setup
 
-Node version: [Node v18+](https://nodejs.org/en/download/)
+Node version: [Node v20+](https://nodejs.org/en/download/)
 
 **Requirements:**  
 Copy `secret.template.json` as `secret.json`.  
