@@ -12,6 +12,7 @@ const router = express.Router();
 const S3Client = new S3();
 
 router.use("/backgrounds", route("backgrounds", S3Client) );
+router.use("/logos", route("logos", S3Client) );
 
 app.use(router);
 
